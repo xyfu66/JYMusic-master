@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.1095" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable/ic_tab_practice_24.xml" value="0.1095" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/layout/activity_main.xml" value="0.17239583333333333" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/layout/activity_mat_index.xml" value="0.19166666666666668" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/layout/fragment_index.xml" value="0.1" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/layout/fragment_mat_index.xml" value="0.28306159420289856" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/layout/fragment_mat_metronome_index.xml" value="0.21195652173913043" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/layout/fragment_mat_tuner_index.xml" value="0.21195652173913043" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/layout/fragment_mine_index.xml" value="0.28306159420289856" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/layout/fragment_practice_index.xml" value="0.28306159420289856" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/menu/main_bottom_nav_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

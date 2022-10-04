@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">JYMusic</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="test01">test01</string>
+    <string name="test02">test02</string>
+    <string name="test03">test03</string>
+
+    <string name="main_nav_practice">练琴</string>
+    <string name="main_nav_mine">我的</string>
+    <string name="metronome">节拍器</string>
+    <string name="tuner">调音器</string>
+</resources>

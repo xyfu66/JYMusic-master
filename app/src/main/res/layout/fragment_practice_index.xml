@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="data"
+            type="com.jinyun.music.navs.practice.index.IndexViewModel" />
+    </data>
+
+    <FrameLayout
+        android:id="@+id/fragmentPracticeIndex"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".navs.practice.index.IndexFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/access_tuner_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:onClick="toMATIndex"
+                android:text="@string/tuner"
+                app:layout_constraintBottom_toTopOf="@+id/access_metronome_btn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/access_metronome_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/metronome"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/access_tuner_btn" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</layout>
