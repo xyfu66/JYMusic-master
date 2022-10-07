@@ -8,6 +8,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.jinyun.music.R
 
+/**
+ * 调音器
+ */
 class IndexFragment : Fragment() {
 
     companion object {

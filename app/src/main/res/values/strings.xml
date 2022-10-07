@@ -9,6 +9,12 @@
 
     <string name="main_nav_practice">练琴</string>
     <string name="main_nav_mine">我的</string>
-    <string name="metronome">节拍器</string>
     <string name="tuner">调音器</string>
+
+    <!-- 节拍器 -->
+    <string name="metronome">节拍器</string>
+    <string name="metroBg">背景</string>
+    <string name="speed_text">速度</string>
+    <string name="speed_no">0</string>
+
 </resources>
