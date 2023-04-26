@@ -3,14 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/_button_bg.xml" value="0.231" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/_switch.xml" value="0.181" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/bg_button.xml" value="0.1475" />
         <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/ic_add.xml" value="0.167" />
         <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.167" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/ic_left.xml" value="0.2605" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/ic_less.xml" value="0.2605" />
         <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/ic_pause.xml" value="0.167" />
         <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/ic_play.xml" value="0.167" />
         <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/ic_play2.xml" value="0.167" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/ic_plus.xml" value="0.2605" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/ic_right.xml" value="0.2605" />
         <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/ic_vibrating_note_strength.xml" value="0.167" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/left.xml" value="0.2605" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/less.xml" value="0.2605" />
         <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/play_button_background.xml" value="0.167" />
         <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/play_button_background_cover.xml" value="0.167" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/plus.xml" value="0.2605" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable-v24/right.xml" value="0.2605" />
         <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable/ic_baseline_account_box_24.xml" value="0.1095" />
         <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.167" />
         <entry key="..\:/allProject/JYMusic-master/app/src/main/res/drawable/ic_tab_practice_24.xml" value="0.1095" />
@@ -18,7 +29,7 @@
         <entry key="..\:/allProject/JYMusic-master/app/src/main/res/layout/activity_mat_index.xml" value="0.19166666666666668" />
         <entry key="..\:/allProject/JYMusic-master/app/src/main/res/layout/fragment_index.xml" value="0.1" />
         <entry key="..\:/allProject/JYMusic-master/app/src/main/res/layout/fragment_mat_index.xml" value="0.28306159420289856" />
-        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/layout/fragment_mat_metronome_index.xml" value="0.21195652173913043" />
+        <entry key="..\:/allProject/JYMusic-master/app/src/main/res/layout/fragment_mat_metronome_index.xml" value="0.33" />
         <entry key="..\:/allProject/JYMusic-master/app/src/main/res/layout/fragment_mat_tuner_index.xml" value="0.21195652173913043" />
         <entry key="..\:/allProject/JYMusic-master/app/src/main/res/layout/fragment_mine_index.xml" value="0.28306159420289856" />
         <entry key="..\:/allProject/JYMusic-master/app/src/main/res/layout/fragment_practice_index.xml" value="0.28306159420289856" />
@@ -33,5 +44,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

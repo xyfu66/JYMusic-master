@@ -18,11 +18,7 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.findFragmentById(R.id.fragmentContainerView)!!
                 .findNavController()
 
-        // Configure the relationship between navigation and the bottom menu
-        val configuration: AppBarConfiguration = AppBarConfiguration.Builder(navView.menu).build()
-
         // start
-        NavigationUI.setupActionBarWithNavController(this, navController, configuration)
         NavigationUI.setupWithNavController(navView, navController)
 
     }

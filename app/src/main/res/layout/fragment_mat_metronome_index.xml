@@ -1,64 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".components.metronomeAndTuner.metronome.IndexFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@mipmap/background"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
 
-        <ImageView
-            android:id="@+id/metroBg"
-            android:layout_width="380dp"
-            android:layout_height="380dp"
-            android:contentDescription="@string/metroBg"
-            android:src="@drawable/play_button_background"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.3" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="48dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content">
 
-        <TextView
-            android:id="@+id/spendNo"
+            <ImageButton
+                android:id="@+id/beat_left_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/ic_left"
+                android:contentDescription="@string/beat_left_ib" />
+
+            <TextView
+                android:id="@+id/beat_tempo_tv"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+
+                android:layout_marginEnd="32dp"
+                android:gravity="center"
+
+                android:text="@string/beat_tempo_tv"
+                android:textColor="#039BE5"
+                android:textSize="43sp" />
+
+            <ImageButton
+                android:id="@+id/beat_right_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_right"
+                android:contentDescription="@string/beat_right_ib" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/beat_less_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/ic_less"
+                android:contentDescription="@string/beat_less_ib" />
+
+            <EditText
+                android:id="@+id/beat_bpm_et"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="30dp"
+                android:background="@null"
+                android:cursorVisible="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="3"
+                android:text="@string/beat_bpm_et"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:autofillHints="@string/beat_bpm_et"
+                tools:ignore="LabelFor" />
+
+            <ImageButton
+                android:id="@+id/beat_plus_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_plus"
+                android:contentDescription="@string/beat_plus_ib" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <com.jinyun.music.components.metronomeAndTuner.metronome.RotateControlView
+                android:id="@+id/rotate"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_button" />
+
+            <ImageButton
+                android:id="@+id/beat_start_ib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="#00000000"
+                android:contentDescription="@string/beat_start_ib"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:src="@mipmap/ic_play"
+                tools:ignore="ImageContrastCheck" />
+
+        </RelativeLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/speed_no"
-            android:textColor="#651FFF"
-            android:textSize="96sp"
-            app:layout_constraintBottom_toBottomOf="@+id/metroBg"
-            app:layout_constraintEnd_toEndOf="@+id/metroBg"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="@+id/metroBg"
-            app:layout_constraintTop_toTopOf="@+id/metroBg"
-            app:layout_constraintVertical_bias="0.5" />
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
 
-        <TextView
-            android:id="@+id/speedText"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/speed_text"
-            android:textColor="@color/white"
-            android:textSize="34sp"
-            app:layout_constraintBottom_toBottomOf="@+id/metroBg"
-            app:layout_constraintEnd_toEndOf="@+id/metroBg"
-            app:layout_constraintStart_toStartOf="@+id/metroBg"
-            app:layout_constraintTop_toBottomOf="@+id/spendNo" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/ic_switch"
+                android:contentDescription="@string/bg_switch" />
 
-        <ProgressBar
-            android:id="@+id/progressBar"
-            style="?android:attr/progressBarStyle"
-            android:layout_width="380dp"
-            android:layout_height="380dp"
-            app:layout_constraintBottom_toBottomOf="@+id/metroBg"
-            app:layout_constraintEnd_toEndOf="@+id/metroBg"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/metroBg"
-            app:layout_constraintTop_toTopOf="@+id/metroBg"
-            app:layout_constraintVertical_bias="0.283" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
+            <TextView
+                android:id="@+id/beat_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="30dp"
+                android:gravity="center"
+                android:text="@string/beat_switch"
+                android:textColor="#ffffff"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
 </FrameLayout>

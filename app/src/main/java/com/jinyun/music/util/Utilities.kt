@@ -20,6 +20,7 @@
 package com.jinyun.music.util
 
 import android.content.res.Resources
+import android.util.TypedValue
 import java.text.DecimalFormat
 import kotlin.math.abs
 import kotlin.math.roundToInt
@@ -40,9 +41,9 @@ class Utilities {
             return px / Resources.getSystem().displayMetrics.density
         }
 
-//        fun sp2px(sp: Int): Int {
-//            return (sp * Resources.getSystem().displayMetrics.scaledDensity).toInt()
-//        }
+        fun sp2px(sp: Float): Float {
+            return sp * Resources.getSystem().displayMetrics.scaledDensity
+        }
 
 
         fun sensitivity2percentage(sensitivity: Float): Float {
